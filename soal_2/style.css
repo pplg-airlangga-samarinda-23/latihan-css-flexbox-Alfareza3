@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-button {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #507390;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #39586B;
+}

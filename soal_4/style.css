@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    height: 960px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+
+.item {
+    width: 30%;
+    height: 30%;
+    margin: 1%;
+    background-color: #4a79a8;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
